@@ -526,8 +526,81 @@ Below is a structured summary of my certifications to date, organized chronologi
 
 ---
 
-<sub>*All badges above are illustrative and sourced from shields.io. Some badge icons may not be the provider’s official logo, as not all issuers have official badge images on shields.io. Credential IDs are included when provided.*</sub>
+# 💼 Professional Experience
 
+---
+
+## **Director of Maintenance**  
+**Maple Grove Wellness and Rehabilitation**  
+*Dec 2024 – Feb 2025 (3 months)*
+
+- Oversaw facility operations and compliance inspections.
+- Led preventive maintenance and equipment repair.
+- Trained staff on safety and operational procedures.
+
+**_Skills Used:_** Maintenance and Repair, Maintenance Supervision
+
+---
+
+## **Director of Maintenance**  
+**St. Louis Altenheim**  
+*Oct 2024 – Dec 2024 (3 months)*
+
+- Managed facility projects and vendor relations.
+- Conducted fire safety audits and compliance preparation.
+- Mentored staff in technical operations.
+
+---
+
+## **Director of Maintenance**  
+**Hillside Rehab and Health Care**  
+*Jun 2024 – Oct 2024 (5 months)*
+
+- Directed facility upgrades and preventive maintenance programs.
+- Coordinated state inspections and project scheduling.
+- Led staff training and vendor onboarding.
+
+---
+
+## **Maintenance Supervisor**  
+**Allied Medical Limited**  
+*Sep 2023 – Jun 2024 (10 months)*
+
+- Prepared for ISO, UL, DNR, EPA, FDA, OSHA inspections.
+- Managed machine validation reports and arc flash safety protocols.
+- Oversaw facility and equipment operations.
+
+---
+
+## **Project Manager**  
+**CR Solar**  
+*Dec 2022 – Sep 2023 (10 months)*
+
+- Managed solar installation projects and customer communications.
+- Utilized Salesforce, Ironridge, and Wattmonk platforms for data entry and scheduling.
+- Led training and documentation for crew operations.
+
+---
+
+## **Owner**  
+**M3 Communications and Technology**  
+*May 2018 – Dec 2022 (4 years, 8 months)*
+
+- Installed and networked NEC digital menu systems across multiple Burger King locations.
+- Led Ricoh printer rollout at Wells Fargo Advisors.
+- Refreshed Cisco APs and servers across JCPenney sites.
+
+---
+
+## **Maintenance Technician**  
+**TG Missouri**  
+*Nov 2017 – May 2018 (7 months)*
+
+- Maintained and repaired 46 injection molding machines.
+- Installed 16 new machines and managed facility relocation.
+- Conducted daily equipment checks and inventory management.
+
+---
 
 ---
 

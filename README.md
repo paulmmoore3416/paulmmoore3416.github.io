@@ -5,24 +5,26 @@ Welcome to my GitHub portfolio! I'm a passionate and driven IT professional with
 ---
 
 ## 🚀 About Me
-## 🚀 About Me
 
-<!-- Side by side badges using inline HTML for spacing -->
-<img src="https://img.shields.io/badge/CNT%20Certified-blue?style=flat&logo=datadog&logoColor=white" alt="CNT Certified Badge"/>
-<img src="https://img.shields.io/badge/CompTIA%20Network%2B-red?style=flat&logo=comptia&logoColor=white" alt="CompTIA Network+ Badge"/>
-<img src="https://img.shields.io/badge/Future%20CCNA-brightgreen?style=flat&logo=cisco&logoColor=white" alt="CCNA Badge"/>
-<img src="https://img.shields.io/badge/Red%20Hat%20SysAdmin-red?style=flat&logo=redhat&logoColor=white" alt="Red Hat System Administrator Badge"/>
-<img src="https://img.shields.io/badge/Machine%20Learning-yellow?style=flat&logo=code&logoColor=black" alt="Machine Learning Badge"/>
-<img src="https://img.shields.io/badge/AI%20Developer-purple?style=flat&logo=openai&logoColor=white" alt="AI Developer Badge"/>
-<img src="https://img.shields.io/badge/BigData-orange?style=flat&logo=databricks&logoColor=white" alt="DataBricks Badge"/>
-<img src="https://img.shields.io/badge/Linux%20Ninja-grey?style=flat&logo=linux&logoColor=black" alt="Linux Ninja Badge"/>
-
+<!-- Side-by-side badges using a flexbox container -->
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+  <img src="https://img.shields.io/badge/CNT%20Certified-blue?style=flat&logo=datadog&logoColor=white" alt="CNT Certified Badge"/>
+  <img src="https://img.shields.io/badge/CompTIA%20Network%2B-red?style=flat&logo=comptia&logoColor=white" alt="CompTIA Network+ Badge"/>
+  <img src="https://img.shields.io/badge/Future%20CCNA-brightgreen?style=flat&logo=cisco&logoColor=white" alt="CCNA Badge"/>
+  <img src="https://img.shields.io/badge/Red%20Hat%20SysAdmin-red?style=flat&logo=redhat&logoColor=white" alt="Red Hat System Administrator Badge"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-yellow?style=flat&logo=code&logoColor=black" alt="Machine Learning Badge"/>
+  <img src="https://img.shields.io/badge/AI%20Developer-purple?style=flat&logo=openai&logoColor=white" alt="AI Developer Badge"/>
+  <img src="https://img.shields.io/badge/BigData-orange?style=flat&logo=databricks&logoColor=white" alt="DataBricks Badge"/>
+  <img src="https://img.shields.io/badge/Linux%20Ninja-grey?style=flat&logo=linux&logoColor=black" alt="Linux Ninja Badge"/>
+</div>
 
 ---
 
-🌐 Cloud Enthusiast | Building secure infrastructure with Ansible, Docker, and Linux  
-🛠️ Working on projects with VSCode, GitHub Copilot, Raspberry Pi OS, and more  
-📚 Lifelong learner committed to staying ahead in tech and security
+🌍 **Remote-first | Cloud-focused | Open-source enthusiast**  
+🔧 Automating infrastructure and security with Ansible, Docker, and Terraform  
+🧠 Lifelong learner: From networks & Linux to machine learning and AI  
+💬 Skilled at documentation, troubleshooting, and building friendly, high-performing teams  
+🔒 Focused on robust, scalable, and secure system architecture  
 
 ---
 

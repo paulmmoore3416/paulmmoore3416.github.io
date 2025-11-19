@@ -66,6 +66,20 @@ Class Project
 🔌 Tools: Cli, Cisco Packet Tracer, Ubuntu, Gimp  
 📸 Features: ssh, dynamic DNS setup, VLANs
 
+### 🕵️ NetworkScanner
+
+A Python-based tool to scan local networks, identify active devices, and display device information in a readable format.  
+🔗 [GitHub Repo](https://github.com/paulmmoore3416/networkscanner)  
+🛠️ Skills Used: Python, Network Programming, ARP Scanning, Threading, CLI Design  
+📊 Skills Metric:  
+- Python: ★★★★☆
+- Networking: ★★★★☆
+- Automation: ★★★☆☆
+- Security Awareness: ★★★☆☆
+
+---
+
+
 ### 📦 Python Cli 
 What you need to start engineering your own cli
 🔗 [GitHub Repo](https://github.com/paulmmoore3416/python-cli-example)  

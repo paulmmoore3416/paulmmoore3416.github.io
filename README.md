@@ -1,6 +1,6 @@
    # Hi, I'm Paul Moore
 
-Welcome to my GitHub portfolio! I'm a passionate and driven IT professional with a focus on **Network Engineering**, **Cloud Administration**, and **DevOps Automation**. I thrive in remote environments and build practical, secure, and scalable systems and networks.
+Welcome to my GitHub portfolio! I’m a highly motivated and versatile IT professional with deep expertise in Network Engineering, Cloud Platforms, and DevOps Automation. I thrive in fast-paced, remote environments where I can architect, automate, and optimize modern infrastructure solutions. My passion lies in transforming complex technical challenges into streamlined, secure, and scalable systems—always with a focus on innovation, collaboration, and lifelong learning.
 
 ---
 

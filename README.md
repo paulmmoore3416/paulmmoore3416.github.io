@@ -112,7 +112,22 @@ Buzz AI Assistant: DevOps-ready modular AI assistant with multi-client support, 
 - Discussions
 - Pages
 
+# 🕵️ CorePlayer
 
+A feature-rich media player project emphasizing modern web technologies and frontend skills.
+
+🔗 [GitHub Repo](https://github.com/paulmmoore3416/CorePlayer)
+
+🛠️ Skills Used: TypeScript, JavaScript, CSS, HTML, Frontend Architecture, UI/UX, Media Handling
+
+📊 Skills Metric:
+
+- TypeScript:    ★★★★★
+- JavaScript:    ★★★★☆
+- CSS:           ★★★★☆
+- HTML:          ★★★☆☆
+- UI/UX Design:  ★★★★☆
+- Media APIs:    ★★★★☆
 ---
 
 

@@ -8,8 +8,13 @@ Welcome to my GitHub portfolio! I'm a passionate and driven IT professional with
 
 <img src="https://img.shields.io/badge/CNT%20Certified-blue?style=flat&logo=datadog&logoColor=white" alt="CNT Certified Badge"/>  
 <img src="https://img.shields.io/badge/CompTIA%20Network%2B-red?style=flat&logo=comptia&logoColor=white" alt="CompTIA Network+ Badge"/>  
-<img src="https://img.shields.io/badge/Future%20CCNA-brightgreen?style=flat&logo=cisco&logoColor=white" alt="Future CCNA Badge"/>  
-<img src="https://img.shields.io/badge/Red%20Hat%20SysAdmin-red?style=flat&logo=redhat&logoColor=white" alt="Red Hat System Administrator Badge"/>
+<img src="https://img.shields.io/badge/Future%20CCNA-brightgreen?style=flat&logo=cisco&logoColor=white" alt="CCNA Badge"/>  
+<img src="https://img.shields.io/badge/Red%20Hat%20SysAdmin-red?style=flat&logo=redhat&logoColor=white" alt="Red Hat System Administrator Badge"/> 
+<img src="https://img.shields.io/badge/Machine%20Learning-yellow?style=flat&logo=code&logoColor=black" alt="Machine Learning Badge"/>
+<img src="https://img.shields.io/badge/AI-purple?style=flat&logo=openai&logoColor=white" alt="AI Badge"/> 
+<img src="https://img.shields.io/badge/BigData-orange?style=flat&logo=databricks&logoColor=white" alt="BigData Badge"/>
+
+
 
 ---
 

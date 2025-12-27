@@ -152,6 +152,8 @@ What you need to start engineering your own cli
 
 ## 🧠 Certifications
 
+**Badges & Profiles:** [Credly](https://www.credly.com/users/paulmoore) • [NetAcad Badges](https://www.netacad.com/profile?&tab=badges) • [LinkedIn](https://www.linkedin.com/in/paulmooretux) • [Resume (Google Doc)](https://docs.google.com/document/d/1qjdJep8StjNXdz2PpeNfCaUwzAkrJsb1/edit?usp=drivesdk&ouid=108616537914925561380&rtpof=true&sd=true)
+
 ## 📜 Licenses & Certifications
 
 Below is a structured summary of my certifications to date, organized chronologically and grouped by provider. Each badge is placed beside its respective certification for clarity and visual appeal.

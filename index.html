@@ -33,9 +33,22 @@
         <p>Architecting secure, automated infrastructure. I focus on networking, containerization, and reliable automation that scales. Current work: Node-RED automation for network & container labs, Ansible, Docker, and CI/CD pipelines.</p>
 
         <p class="cta">
-          <a class="btn" href="/resume.pdf" download>Download Resume (PDF)</a>
+          <a class="btn" href="https://github.com/paulmmoore3416/paulmmoore3416.github.io/releases/latest/download/resume.pdf" rel="noopener" target="_blank">Download Resume (PDF)</a>
           <a class="btn ghost" href="/resume.html">View Resume</a>
         </p>
+
+        <div class="cta-extra" aria-label="Resume contact and vCard">
+          <a class="vcard-badge" href="/resume.vcf" download aria-label="Download vCard">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" style="vertical-align:middle;margin-right:6px"><path d="M12 2v20M5 9h14M8 16h8" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            vCard
+          </a>
+
+          <a href="/resume.vcf" class="vcard-qr-link" aria-label="QR code for vCard (scan to import)">
+            <img class="vcard-qr" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://paulmmoore3416.github.io/resume.vcf" alt="QR code to import vCard" />
+          </a>
+
+          <div class="resume-meta muted" id="resume-version" aria-live="polite">Resume version: <span id="resume-tag">unknown</span></div>
+        </div>
 
         <p class="links">Badges: <a href="https://www.credly.com/users/paulmoore" target="_blank">Credly</a> • <a href="https://www.netacad.com/profile?&tab=badges" target="_blank">NetAcad</a> • <a href="https://docs.google.com/document/d/1qjdJep8StjNXdz2PpeNfCaUwzAkrJsb1/edit?usp=drivesdk&ouid=108616537914925561380&rtpof=true&sd=true" target="_blank">Google Doc Resume</a></p>
       </div>
@@ -102,7 +115,21 @@
   </footer>
 
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Person","name":"Paul Moore","url":"https://github.com/paulmmoore3416/paulmmoore3416.github.io","sameAs":["https://www.linkedin.com/in/paulmooretux","https://github.com/paulmmoore3416"],"jobTitle":"Network Engineer / Systems Automation"}
+  {"@context":"https://schema.org","@type":"Person","name":"Paul Moore","url":"https://github.com/paulmmoore3416/paulmmoore3416.github.io","sameAs":["https://www.linkedin.com/in/paulmooretux","https://github.com/paulmmoore3416"],"jobTitle":"Network Engineer / Systems Automation","email":"mailto:paulmmoore3416@gmail.com","telephone":"+1-314-704-8581"}
+  </script>
+  <script>
+  (async function(){
+    try{
+      const res = await fetch('https://api.github.com/repos/paulmmoore3416/paulmmoore3416.github.io/releases/latest');
+      if(!res.ok) return;
+      const data = await res.json();
+      const tag = data.tag_name || data.name || 'v'+(data.id||'');
+      const el = document.getElementById('resume-tag');
+      if(el) el.textContent = tag;
+      const parent = document.getElementById('resume-version');
+      if(parent) parent.innerHTML = 'Resume version: <a href="'+(data.html_url||'#')+'" target="_blank" rel="noopener">'+tag+'</a>';
+    }catch(e){/* ignore errors */}
+  })();
   </script>
   <script src="/assets/js/badges.js"></script>
 </body>

@@ -1,0 +1,45 @@
+name: Resume pipeline
+
+on:
+  push:
+    paths:
+      - 'resume.md'
+      - 'resume.vcf'
+      - '.github/workflows/**'
+  pull_request:
+    paths:
+      - 'resume.md'
+  release:
+    types: [published]
+
+jobs:
+  validate:
+    name: Validate resume
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install markdownlint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y npm
+          npm install -g markdownlint-cli@0.29.0
+      - name: Run markdownlint
+        run: markdownlint resume.md
+
+  generate_pdf:
+    name: Generate PDF and upload
+    needs: validate
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate PDF using pandoc docker image
+        run: |
+          docker run --rm -v "${{ github.workspace }}":/data pandoc/latex:2.21 pandoc resume.md -o resume.pdf --pdf-engine=xelatex -V geometry:margin=1in
+      - name: Upload PDF to GitHub Release
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./resume.pdf
+          asset_name: resume.pdf
+          asset_content_type: application/pdf

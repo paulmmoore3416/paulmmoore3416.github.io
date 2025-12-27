@@ -25,3 +25,9 @@ body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradie
 .badge-wall{display:flex;flex-wrap:wrap;gap:8px}
 .badge-wall img{height:40px;border-radius:6px}
 @media (max-width:760px){.hero{flex-direction:column}.hero-right{width:100%}}
+
+/* Resume & vCard UI helpers */
+.cta-extra{margin-top:12px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.vcard-badge{display:inline-flex;align-items:center;background:rgba(255,255,255,0.03);color:var(--text);padding:6px 10px;border-radius:8px;text-decoration:none}
+.vcard-qr{width:64px;height:64px;border-radius:6px;border:1px solid rgba(255,255,255,0.04)}
+.resume-meta{font-size:0.9rem;color:var(--muted)}

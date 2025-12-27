@@ -2,7 +2,7 @@
 
 Welcome to my GitHub portfolio! I’m a highly motivated and versatile IT professional with deep expertise in Network Engineering, Cloud Platforms, and DevOps Automation. I thrive in fast-paced, remote environments where I can architect, automate, and optimize modern infrastructure solutions. My passion lies in transforming complex technical challenges into streamlined, secure, and scalable systems—always with a focus on innovation, collaboration, and lifelong learning.
 
-**Download my resume:** [Resume (PDF)](./resume.pdf)
+**Download my resume:** [Resume (PDF)](https://github.com/paulmmoore3416/paulmmoore3416.github.io/releases/latest/download/resume.pdf) ![Resume pipeline](https://github.com/paulmmoore3416/paulmmoore3416.github.io/actions/workflows/resume-pipeline.yml/badge.svg)
 
 ---
 
@@ -161,6 +161,7 @@ What you need to start engineering your own cli
 ## Contact Form & Print Notes
 
 - A static contact form stub has been added to the site that posts to Formspree — replace the `action` URL in `index.html` with your Formspree endpoint, or connect Netlify Forms or another handler.
+- **Automated PDF generation:** A GitHub Actions workflow (`.github/workflows/resume-pipeline.yml`) validates `resume.md` on push/PR and generates `resume.pdf` when you publish a release; the PDF is attached to the release and available via the "Download Resume (PDF)" link above. To build locally, run `./scripts/generate_resume.sh` (requires Docker or pandoc + LaTeX).
 - The resume has a print-optimized stylesheet (`assets/css/print.css`) and a "Print Resume" button on the web resume (`resume.html`) which calls `window.print()` for recruiter-friendly printing.
 - A downloadable vCard is available at `resume.vcf` and linked from the web resume.
 

@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Paul Moore
+N:Moore;Paul;;;
+EMAIL;type=INTERNET;type=WORK:paulmmoore3416@gmail.com
+TEL;type=CELL:3147048581
+ORG:M3 Communications and Technology LLC
+TITLE:Network Engineer / Systems Automation
+ADR;TYPE=WORK:;;St. Louis;MO;USA
+URL:https://paulmmoore3416.github.io
+NOTE:Node-RED automation, Ansible, Docker, Cloud & Network engineering
+item1.URL;type=pref:https://www.linkedin.com/in/paulmooretux
+item2.URL:https://github.com/paulmmoore3416
+END:VCARD

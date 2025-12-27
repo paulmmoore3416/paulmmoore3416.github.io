@@ -1,0 +1,14 @@
+/* Print-optimized styles for resume */
+@media print{
+  body{background:white;color:#000}
+  .site-header,.site-footer,.badge-wall,.btn,nav{display:none !important}
+  .container{max-width:800px;padding:0;margin:0}
+  .card{background:transparent;border:none;padding:0;margin:0}
+  h1,h2,h3{color:#000}
+  a:after{content:" (" attr(href) ")"}
+  img{max-width:100%;height:auto}
+  .muted{display:block}
+}
+/* Add a small rule for print button visibility */
+.print-only{display:inline-block}
+@media print{.print-only{display:none}}

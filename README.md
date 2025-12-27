@@ -152,9 +152,17 @@ What you need to start engineering your own cli
 
 ## 🧠 Certifications
 
-**Badges & Profiles:** [Credly](https://www.credly.com/users/paulmoore) • [NetAcad Badges](https://www.netacad.com/profile?&tab=badges) • [LinkedIn](https://www.linkedin.com/in/paulmooretux) • [Resume (Google Doc)](https://docs.google.com/document/d/1qjdJep8StjNXdz2PpeNfCaUwzAkrJsb1/edit?usp=drivesdk&ouid=108616537914925561380&rtpof=true&sd=true)
+**Badges & Profiles:** [Credly](https://www.credly.com/users/paulmoore) • [NetAcad Badges](https://www.netacad.com/profile?&tab=badges) • [LinkedIn](https://www.linkedin.com/in/paulmooretux) • [Resume (Google Doc)](https://docs.google.com/document/d/1qjdJep8StjNXdz2PpeNfCaUwzAkrJsb1/edit?usp=drivesdk&ouid=108616537914925561380&rtpof=true&sd=true) • [Download vCard](./resume.vcf)
 
 ## 📜 Licenses & Certifications
+
+---
+
+## Contact Form & Print Notes
+
+- A static contact form stub has been added to the site that posts to Formspree — replace the `action` URL in `index.html` with your Formspree endpoint, or connect Netlify Forms or another handler.
+- The resume has a print-optimized stylesheet (`assets/css/print.css`) and a "Print Resume" button on the web resume (`resume.html`) which calls `window.print()` for recruiter-friendly printing.
+- A downloadable vCard is available at `resume.vcf` and linked from the web resume.
 
 Below is a structured summary of my certifications to date, organized chronologically and grouped by provider. Each badge is placed beside its respective certification for clarity and visual appeal.
 

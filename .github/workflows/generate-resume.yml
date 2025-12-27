@@ -1,0 +1,32 @@
+name: Generate Resume PDF
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-resume:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex librsvg2-bin
+      - name: Build resume.pdf
+        run: |
+          pandoc resume.md -o resume.pdf --pdf-engine=xelatex || true
+      - name: Commit generated PDF if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resume.pdf || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: regenerate resume.pdf [skip ci]" || true
+            git push origin HEAD:main
+          else
+            echo "No changes to commit"
+          fi

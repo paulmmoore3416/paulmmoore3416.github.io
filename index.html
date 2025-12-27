@@ -76,7 +76,21 @@
     <section id="contact" class="card">
       <h3>Contact & Links</h3>
       <p>Email: <a href="mailto:paulmmoore3416@gmail.com">paulmmoore3416@gmail.com</a> • Phone: 314-704-8581</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/paulmooretux" target="_blank">paulmooretux</a> • GitHub: <a href="https://github.com/paulmmoore3416" target="_blank">@paulmmoore3416</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/paulmooretux" target="_blank" rel="noopener noreferrer">paulmooretux</a> • GitHub: <a href="https://github.com/paulmmoore3416" target="_blank" rel="noopener noreferrer">@paulmmoore3416</a></p>
+
+      <h4>Send a message</h4>
+      <p>Use the form below (static form stub):</p>
+      <form method="POST" action="https://formspree.io/f/your-form-id" class="contact-form">
+        <label for="name">Name</label><br>
+        <input id="name" name="name" required style="width:100%;padding:8px;margin-bottom:8px" />
+        <label for="email">Email</label><br>
+        <input id="email" name="email" type="email" required style="width:100%;padding:8px;margin-bottom:8px" />
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="4" required style="width:100%;padding:8px;margin-bottom:8px"></textarea>
+        <p class="muted">Note: Replace the form <code>action</code> with your Formspree endpoint (create an account and use the assigned form id) or use Netlify Forms/your preferred handler.</p>
+        <button class="btn" type="submit">Send message</button>
+      </form>
+
     </section>
 
   </main>

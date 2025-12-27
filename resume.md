@@ -4,7 +4,9 @@
 📞 **314-704-8581**  
 📍 **St. Louis, MO**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/paulmoore3416)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/paulmooretux)
+[![Credly](https://img.shields.io/badge/Credly-Badges-orange?logo=credly)](https://www.credly.com/users/paulmoore)
+[![NetAcad](https://img.shields.io/badge/NetAcad-Badges-blue?logo=cisco)](https://www.netacad.com/profile?&tab=badges)
 [![CCNA (In Progress)](https://img.shields.io/badge/CCNA-Cisco%20Certified%20Network%20Associate-yellow?logo=cisco)](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html)
 [![CNT Certified Network Technician](https://img.shields.io/badge/CNT-Certified%20Network%20Technician-brightgreen)](https://www.ciatech.us)
 [![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-blue?logo=comptia)](https://www.comptia.org/certifications/network)
@@ -20,7 +22,7 @@
 - **IBM Systems:** z/OS Mainframe Practitioner, Z Application Architecture, Data Topology
 - **Cloud & Security:** Linux & Private Cloud Admin (IBM Power), Azure Fundamentals, Microsoft 365 Admin
 - **Networking & Security:** TCP/IP, Windows Server, Hyper-V, Active Directory, Network Hardening, Wireshark, Kali Linux, PowerShell
-- **Automation & Containerization:** Ansible, Docker
+- **Automation & Containerization:** Ansible, Docker, Node-RED (automation of network & containerized lab projects)
 - **Version Control & Collaboration:** Git, GitHub, Salesforce, Slack, Zoom, Teams, SharePoint, OneNote
 - **Programming & Development:** COBOL, IBM DB2, Java, Python, C++, CI/CD, Agile, DevOps
 
@@ -36,6 +38,8 @@
 - **Red Hat Linux System Administrator**
 - **CompTIA Network+**
 - **Cisco Certified Network Associate (CCNA)** *(In Progress – Testing in September)*
+- **Node-RED Associate** *(In Progress)* — badges: [Credly](https://www.credly.com/users/paulmoore) • [NetAcad](https://www.netacad.com/profile?&tab=badges) • [Course/Docs](https://nodered.org/)
+- **Node-RED Advanced** *(In Progress)* — badges: [Credly](https://www.credly.com/users/paulmoore) • [NetAcad](https://www.netacad.com/profile?&tab=badges) • [Course/Docs](https://nodered.org/)
 - **Oracle Multi-Cloud Architect**
 
 ---

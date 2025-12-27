@@ -2,6 +2,8 @@
 
 Welcome to my GitHub portfolio! I’m a highly motivated and versatile IT professional with deep expertise in Network Engineering, Cloud Platforms, and DevOps Automation. I thrive in fast-paced, remote environments where I can architect, automate, and optimize modern infrastructure solutions. My passion lies in transforming complex technical challenges into streamlined, secure, and scalable systems—always with a focus on innovation, collaboration, and lifelong learning.
 
+**Download my resume:** [Resume (PDF)](./resume.pdf)
+
 ---
 
 ## 🚀 About Me
@@ -21,7 +23,7 @@ Welcome to my GitHub portfolio! I’m a highly motivated and versatile IT profes
 ---
 
 🌍 **Remote-first | Cloud-focused | Open-source enthusiast**  
-🔧 Automating infrastructure and security with Ansible, Docker, and Terraform  
+🔧 Automating infrastructure and security with Ansible, Docker, Node-RED, and Terraform — including lab projects focused on automating network and containerized networks. Currently finishing Node-RED Associate and Node-RED Advanced certifications; badges available on Credly and NetAcad.  
 🧠 Lifelong learner: From networks & Linux to machine learning and AI  
 💬 Skilled at documentation, troubleshooting, and building friendly, high-performing teams  
 🔒 Focused on robust, scalable, and secure system architecture  

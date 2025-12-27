@@ -1,0 +1,27 @@
+/* Simple, clean, responsive portfolio styling */
+:root{--bg:#0f1724;--card:#0b1320;--accent:#1f6feb;--muted:#9aa4b2;--text:#e6eef6}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#061121 0%, #071422 100%);color:var(--text);margin:0;line-height:1.5}
+.skip{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip:focus{position:static;width:auto;height:auto;margin:8px;left:auto}
+.container{max-width:980px;margin:0 auto;padding:20px}
+.site-header{background:rgba(255,255,255,0.02);border-bottom:1px solid rgba(255,255,255,0.03)}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.brand{margin:12px 0;font-size:1.25rem}
+.site-header nav a{color:var(--text);text-decoration:none;margin-left:14px;font-weight:600;font-size:.95rem}
+.hero{display:flex;gap:24px;align-items:flex-start;padding:28px 0}
+.hero-left{flex:1}
+.hero-right{width:320px}
+.btn{display:inline-block;background:var(--accent);color:white;padding:10px 14px;border-radius:8px;text-decoration:none;margin-right:8px}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06)}
+.card{background:rgba(255,255,255,0.02);border-radius:12px;padding:18px;margin:18px 0}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.projects article{background:rgba(255,255,255,0.01);padding:12px;border-radius:10px}
+.badges-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:12px}
+.badge{display:flex;flex-direction:column;align-items:center;text-decoration:none;color:var(--text);background:rgba(255,255,255,0.01);padding:8px;border-radius:8px}
+.badge img{max-width:100%;height:auto}
+.muted{color:var(--muted);font-size:.9rem}
+.footer{padding:20px 0}
+.badge-wall{display:flex;flex-wrap:wrap;gap:8px}
+.badge-wall img{height:40px;border-radius:6px}
+@media (max-width:760px){.hero{flex-direction:column}.hero-right{width:100%}}
